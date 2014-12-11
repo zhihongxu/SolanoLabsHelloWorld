@@ -10,7 +10,7 @@
 #:hooks:
 #  :pre_setup: './pre_setup.sh'
 #  :worker_setup: './worker_setup.sh'
-resource_pools: 
+:resource_pools: 
 - mac_mini_hosts 
 # Time out hooks if they (each) run for more than 20 minutes
 #:timeout_hook: 1200
