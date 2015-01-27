@@ -1,0 +1,2 @@
+:tests:
+  - ". project-settings.sh && ./run.sh"
